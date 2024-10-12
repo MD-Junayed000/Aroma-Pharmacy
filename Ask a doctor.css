@@ -1,0 +1,358 @@
+/*  whole web page er    */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*  just body where we put the image  */
+body {
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+/*scroll to the top button*/
+
+#btnScrollToTop {
+  z-index: 1;
+  position: fixed;
+  right: 3.5%;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #c30b0b;
+  font-size: 2rem;
+  border-color: #c30b0b;
+  box-shadow: 0 0 7px rgba(0, 0, 0.25);
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+#btnScrollToTop:active {
+  background: #ab1818;
+}
+
+/* ask a doctor */
+section {
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(#a40e0e, #e14209);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  display: flex;
+
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 83%,
+      13% 88%,
+      26% 88%,
+      39% 82%,
+      50% 78%,
+      64% 77%,
+      75% 78%,
+      89% 82%,
+      100% 79%,
+      100% 0%,
+      0% 0%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 86%,
+      11% 84%,
+      24% 86%,
+      39% 82%,
+      51% 80%,
+      65% 82%,
+      79% 86%,
+      89% 87%,
+      100% 85%,
+      100% 0%,
+      0% 0%
+    );
+  }
+}
+.leftside {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.leftside img {
+  width: 900px;
+  height: 600px;
+}
+
+.rightside {
+  width: 50%;
+  height: 350px;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  padding: 40px;
+}
+
+.rightside h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.rightside p {
+  font-size: 30px;
+  padding: 10px 0;
+  line-height: 50px;
+  font-weight: 700;
+}
+.rightside p span {
+  color: #000000;
+}
+.btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.rightside button {
+  font-size: 32px;
+  font-weight: 600;
+  z-index: 2;
+  height: 80px;
+  font-weight: bolder;
+  padding: 0 15.8px;
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  animation: animates 10s linear infinite;
+  background-size: 400%;
+
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 7px #c61212;
+  margin-bottom: 25px;
+}
+
+.rightside button:hover {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+@media (max-width: 1024px) {
+  .rightside h1 {
+    font-size: 40px;
+  }
+
+  .rightside p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .rightside button {
+    font-size: 28px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftside,
+  .rightside {
+    width: 100%;
+  }
+
+  .leftside img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .rightside {
+    padding: 20px;
+    margin-top: -60px;
+    margin-bottom: 285px;
+  }
+
+  .rightside h1 {
+    font-size: 35px;
+  }
+
+  .rightside p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .btn {
+    grid-template-columns: 1fr;
+  }
+
+  .rightside button {
+    font-size: 24px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leftside img {
+    width: 100%;
+  }
+
+  .rightside h1 {
+    font-size: 30px;
+  }
+
+  .rightside p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .rightside button {
+    font-size: 20px;
+    height: 50px;
+  }
+}
+/*scrollll*/
+/* Scroll to top button */
+#btnScrollToTop {
+  z-index: 1;
+  position: fixed;
+  right: 3.5%;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #c30b0b;
+  font-size: 2rem;
+  border-color: #c30b0b;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnScrollToTop:active {
+  background: #ab1818;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  #btnScrollToTop {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+    bottom: 40px;
+    right: 4%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  #btnScrollToTop {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    bottom: 30px;
+    right: 4.5%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  #btnScrollToTop {
+    bottom: 55px;
+    font-size: 1.5rem;
+  }
+  body {
+    background-size: cover;
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure no child element is causing overflow */
+  * {
+    overflow-x: clip;
+    scrollbar-width: none;
+  }
+}
+@media (max-width: 480px) {
+  #btnScrollToTop {
+    font-size: 1.5rem;
+    bottom: 55px;
+    /* right: 15%; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure no child element is causing overflow */
+  * {
+  }
+}

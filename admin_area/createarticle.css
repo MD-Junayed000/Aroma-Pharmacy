@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*
+  body {
+    background-color: rgb(238, 188, 188);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  */
+body {
+  background-image: url(admin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.h2 {
+  color: rgb(48, 2, 2);
+  text-align: center;
+  font-size: 50px;
+}
+.label {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.form {
+  align-items: center;
+  text-align: center;
+}
+
+.input-container {
+  background: linear-gradient(#5e0404f9, #a20272);
+  align-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 550px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  color: rgb(70, 4, 4);
+  margin-bottom: 15px;
+}
+
+.input {
+  margin-bottom: 0;
+}
+
+.input input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input input:focus {
+  border-color: blue;
+  box-shadow: 0 0 8px rgba(0, 0, 255, 0.2);
+  outline: none;
+}

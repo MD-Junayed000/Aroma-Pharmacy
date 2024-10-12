@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+/* form ta */
+.container {
+  background: linear-gradient(#ff2b2bf9, #ff22bd);
+  border-radius: 5px;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  margin-top: 50px;
+}
+::placeholder {
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container label {
+  font-weight: 700;
+}
+.container p {
+  margin: 20px 0;
+  font-weight: bolder;
+  font-size: 17px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group span {
+  margin-bottom: 15px;
+}
+.form-group span input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+button {
+  padding: 10px 30px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  height: 60px;
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  animation: animates 10s linear infinite;
+  background-size: 400%;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 3px #c61212;
+}
+button:hover {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+  .form-group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .form-group span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .form-group span:last-child {
+    margin-right: 0;
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}

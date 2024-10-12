@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*  just body where we put the image  */
+body {
+  background-image: url(../image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#fa1f1ff9, #f707af);
+  padding: 30px;
+  width: 920px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 28px;
+  margin-left: 320px;
+  height: 700px;
+}
+::placeholder {
+  color: #2b2b2bd2;
+  font-size: 18px;
+  font-weight: 550;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.contact-left-title h2 {
+  font-weight: 700;
+
+  font-size: 45px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.contact-left-title p {
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: -8px;
+  margin-left: 25px;
+}
+.contact-inputs {
+  margin-left: 25px;
+  padding-left: 25px;
+  font-weight: 600;
+  color: #262424;
+  font-size: 18px;
+  width: 100%;
+  padding: 8px;
+
+  background-color: #eee;
+
+  outline: none;
+  margin-bottom: -22px;
+}
+
+.contact-right img {
+  width: 525px;
+  vertical-align: middle;
+  margin-right: -45px;
+  margin-left: 35px;
+}
+
+.contact-left textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #eee;
+
+  outline: none;
+  height: 120px;
+}
+button {
+  padding: 5px 140px;
+
+  color: white;
+
+  margin-bottom: 5px;
+
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
+  height: 60px;
+
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  animation: animates 10s linear infinite;
+  background-size: 400%;
+
+  border-radius: 15px;
+  border: none;
+
+  box-shadow: 0 3px #c61212;
+  margin-top: -5px;
+  font-weight: bolder;
+}
+button:hover {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+  cursor: pointer;
+  font-weight: bold;
+}
+.sent-notification {
+  text-align: center;
+  margin-top: 15px;
+  position: absolute;
+  margin-left: 45%;
+  color: #eee;
+  font-style: italic;
+}
+label {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 25px;
+}
+p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 25px;
+}
+#attachment {
+  margin-left: 25px;
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  .contact-right img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-inputs {
+    width: 90%;
+    margin-left: 5%;
+  }
+  button {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .sent-notification {
+    text-align: center;
+    margin-left: 43%;
+  }
+  .contact-left-title h2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 15px;
+    height: fit-content;
+  }
+  .contact-right img {
+    width: 90%;
+  }
+  .contact-inputs {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  button {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  .sent-notification {
+    text-align: center;
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 95%;
+    padding: 10px;
+    height: auto;
+  }
+  .contact-right img {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-inputs {
+    width: 98%;
+    margin-left: 1%;
+  }
+  button {
+    width: 98%;
+    margin-left: 1%;
+    padding: 10px 0;
+  }
+  .contact-left-title h2,
+  .contact-left-title p,
+  label,
+  p {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+  textarea {
+    height: 100px;
+  }
+  .sent-notification {
+    text-align: center;
+    margin-left: 30%;
+  }
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  .contact-right img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-inputs {
+    width: 90%;
+    margin-left: 5%;
+  }
+  button {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 15px;
+  }
+  .contact-right img {
+    width: 90%;
+  }
+  .contact-inputs {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  button {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 95%;
+    padding: 10px;
+    height: auto;
+  }
+  .contact-right img {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-inputs {
+    width: 98%;
+    margin-left: 1%;
+  }
+  button {
+    width: 98%;
+    margin-left: 1%;
+    padding: 10px 0;
+  }
+  .contact-left-title h2,
+  .contact-left-title p,
+  label,
+  p {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+  textarea {
+    height: 100px;
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}

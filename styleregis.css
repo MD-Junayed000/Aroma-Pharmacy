@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --blue: #2980b9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*  just body where we put the image  */
+body {
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+.btn {
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: 18px;
+  cursor: pointer;
+
+  /* margin-top: 1rem; */
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #fe026b 25%,
+    #f66e48 50%,
+    #fe026b 75%,
+    #5335cf 100%
+  );
+  margin-bottom: 5px;
+  font-weight: 500;
+  border-color: #000;
+  width: 100%;
+
+  color: var(--white);
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+
+  font-weight: 500;
+  border-color: #b72b31;
+  margin-top: -8px;
+}
+.btn:hover {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+
+/* NEW THIS WEEK START */
+
+/* Daily Use Products Section End*/
+
+/* Deals Section End*/
+
+/*News Letter Section End*/
+/* trimmer page section start */
+
+/*Product Category End*/
+/*trimer image section Start*/
+
+/*trimmer image section End*/
+
+/* Page session End*/
+
+/* cart page start */
+.image {
+  z-index: -1;
+  position: absolute;
+}
+.image img {
+  width: 100%;
+}
+.col-md-9 {
+  margin-top: 1.3rem;
+  margin-left: 26%;
+  /* background-color: #ffffff; */
+  font-size: 1.5rem;
+  width: 50%;
+  /* height: 100vh; */
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); */
+  display: inline-flex;
+}
+.form-container {
+  width: 100%;
+  z-index: 2;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+/* cart page End */
+
+/* my_account page End */
+/* my_order page Start */
+
+/* my_order page End */
+/* confirm page Start */
+/* contact Us page Start */
+.c-9 {
+  width: 60%;
+
+  align-items: center;
+  font-size: 2rem;
+  display: inline-flex;
+  margin-left: 20rem;
+  margin-top: -40px;
+}
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+.c-9 label {
+  width: 220px;
+}
+.c-9 input {
+  width: 55%;
+  align-items: end;
+}
+.c-9 select {
+  width: 67%;
+}
+.box-header p {
+  margin-top: 15px;
+
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: -12px;
+}
+.box-header h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.regis {
+  margin-bottom: 18px;
+}
+.regis a {
+  color: #1d4354;
+  text-align: center;
+}
+::placeholder {
+  font-weight: 600;
+  color: #575757;
+  font-size: 18px;
+}
+/* contact Us page End */
+
+.text-center button {
+  padding: 1rem;
+}
+/* Confirm page End */
+/* pay_offline page start */
+
+/*  */
+/* pay_offline page End */
+
+/* Edit_account page srart */
+
+.rx {
+  margin: auto;
+  width: 67%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#7b0f0f, #ff0051);
+}
+.rx .roup {
+  margin: 1rem 2.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.rx .roup input {
+  background-color: #ffffff;
+
+  padding: 0.5rem;
+
+  font-weight: 600;
+}
+.rx .roup1 {
+  margin: 1rem 2.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.rx .roup1 input {
+  padding: 0.5rem;
+
+  font-weight: 600;
+}
+.rx .roup img {
+  margin-top: 3rem;
+}
+.rx .roup textarea {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0.5rem;
+}
+/* Edit_account page End */
+
+/* Footer Section End */
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .responsive {
+    width: 90%; /* Adjust width for smaller screens */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding for better readability */
+  }
+
+  .c-9 {
+    width: 100%; /* Make the form container full width on smaller screens */
+    margin-left: 0; /* Remove margin-left for proper alignment */
+    margin-top: 40px; /* Add some margin from the top */
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .c-9 label {
+    width: 180px; /* Adjust label width for smaller screens */
+  }
+
+  .c-9 input,
+  .c-9 select {
+    width: 100%; /* Make inputs and selects full width on smaller screens */
+  }
+
+  .box-header h2 {
+    font-size: 25px; /* Adjust heading size for smaller screens */
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}

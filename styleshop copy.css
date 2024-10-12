@@ -1,0 +1,708 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --blue: #2980b9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*  just body where we put the image  */
+body {
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* overflow-x: hidden; */
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.heading {
+  border-bottom: 0.4rem solid #1d4354;
+  margin: ;
+}
+
+.heading span {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: ;
+  color: #fff;
+  background: #1d4354;
+  border-top-right-radius: 45rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1;
+  border-top-left-radius: 45rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.header-1 {
+  background-color: #f2f2f2;
+  background: url(website/all/back.jpg) no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+header .header-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  z-index: 10;
+}
+
+header .header-1 .logo {
+  font-size: 2rem;
+  color: #666;
+}
+
+header .header-1 .logo img {
+  width: 20rem;
+}
+
+header .header-1 .form-container form {
+  display: flex;
+}
+
+header .header-1 .form-container form #search {
+  height: 4rem;
+  width: 30rem;
+  outline: none;
+  border: 0.2rem solid #666;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+header .header-1 .form-container form #search:focus {
+  border-color: var(--blue);
+}
+
+header .header-1 .form-container form label {
+  height: 4rem;
+  width: 5rem;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background: var(--blue);
+  color: #fff;
+  margin-right: 20rem;
+}
+
+header .header-1 .form-container form label:hover {
+  color: yellow;
+}
+/*second project start*/
+.buttons .btn-primary {
+  /* border: 0.1rem solid black; */
+  text-decoration-color: black;
+  color: black;
+  margin: 0.5rem;
+  /* margin-left: 5.5rem; */
+  background-color: #1d4354;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #1d4354;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  margin-top: 1rem;
+}
+.buttons {
+  display: flex;
+  font-size: 15px;
+}
+.buttons .btn-default {
+  border: 0.1rem solid black;
+  text-decoration-color: black;
+  color: black;
+  margin: 0.5rem;
+  font-size: 18px;
+}
+
+/* Slideshow container */
+/* Slideshow container */
+/* Slideshow container */
+.home {
+  margin: auto;
+  width: 90%;
+  border-top-left-radius: 4.5rem;
+  border-top-right-radius: 4.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #f8f8f8; /* Adjust as needed */
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 1.4rem;
+  background: #fff; /* Adjust as needed */
+  margin-bottom: 2rem;
+}
+
+.slideshow-container img {
+  display: block;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.mySlides {
+  display: none; /* Hide all slides by default */
+}
+
+.mySlides img {
+  opacity: 1; /* Make sure images are visible */
+}
+
+/* Hover effect */
+.slideshow-container:hover .mySlides {
+  display: block;
+}
+
+/* Navigation dots */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* NEW THIS WEEK START */
+/* new this week section start */
+
+/* NEW THIS WEEK END */
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Saloon Products Section Start */
+
+/* Saloon Products Section End */
+
+/* Garments Products Section End */
+/* Daily Use Products Section Start */
+
+/* Daily Use Products Section End*/
+/* Deals Section End*/
+.deal {
+  background: linear-gradient(#ff792b, #ff2277);
+  margin-top: -1.2rem;
+  margin-top: 0.5rem;
+  /* border-top-left-radius: 4.5rem; */
+  /* border-top-right-radius: 4.5rem; */
+  padding-bottom: 2rem;
+}
+
+.deal .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.deal .box-container .box {
+  flex: 1 1 40rem;
+  height: 25rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.deal .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.deal .box-container .box .content {
+  position: absolute;
+  top: 55%;
+  left: 3rem;
+  transform: translateY(-50%);
+}
+
+.deal .box-container .box .content h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.deal .box-container .box .content p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.deal .box-container .box .content .btn {
+  margin: 1.4rem 0;
+}
+
+.deal .icons-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* flex-wrap: wrap; */
+  max-width: 150%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.deal .icons-container .icons {
+  flex: 1 1 25rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border: 0.1rem solid var(--blue);
+}
+
+.deal .icons-container .icons i {
+  color: var(--blue);
+  font-size: 4rem;
+  padding: 1rem 0;
+}
+
+.deal .icons-container .icons h3 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.deal .icons-container .icons p {
+  color: #666;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+}
+/* Deals Section End*/
+
+/*News Letter Section End*/
+/* trimmer page section start */
+
+.col-m-9 {
+  color: #000000;
+  text-align: left;
+  background-color: ;
+}
+.products {
+  margin-top: 1rem;
+}
+.boxi {
+}
+.boxi h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  width: ;
+}
+.boxi p {
+  text-align: leftf;
+}
+.col-md-12 {
+  padding: 8px 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  width: 100rem;
+  z-index: 0;
+  margin: auto;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.breadcrumb {
+  list-style: none;
+  text-align: center;
+  z-index: 0;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: #1d4354;
+}
+.breadcrumb span {
+  text-align: center;
+}
+.breadcrumb :before {
+  content: "\00a0";
+  color: #cccccc;
+  z-index: 0;
+}
+
+/*Product Category*/
+
+.content1 {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+
+  border: 2 solid black;
+  margin-left: ;
+  margin-top: 1rem;
+  text-align: center;
+
+  display: flex;
+  float: left;
+
+  position: sticky;
+  width: 25%;
+  overflow-y: scroll;
+  top: 1rem;
+  /* bottom: 33rem; */
+  /* height: 72rem; */
+  margin-bottom: 30px;
+  margin-bottom: -100vh;
+}
+.col-md-3 {
+}
+.col-md-3 h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.panel h3 {
+  margin-top: 4rem;
+}
+.panel-body {
+  font-size: 23px;
+  width: ;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background-color: #de1248;
+}
+.panel-body .active {
+  color: #0a4c6a;
+}
+.panel-body ul {
+  list-style: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  color: #ffffff;
+  text-align: center;
+}
+.panel-body ul a {
+  color: #fff;
+  margin-left: rem;
+  text-align: center;
+  padding: 2rem;
+}
+.panel-body ul li {
+  z-index: 0;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 15px;
+}
+.panel-body ul a:hover {
+  background: #fff;
+  color: #000;
+}
+.panel-title {
+  text-align: center;
+}
+/*Product Category End*/
+/*trimer image section Start*/
+
+.contt .ro {
+  display: grid;
+  float: center;
+  z-index: 1;
+  background: ;
+  /* width: 61%; */
+  margin-top: -3.2rem;
+  margin-left: 25rem;
+  /* height: 126vh; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.contt .ro .sing {
+  margin: 1rem;
+  display: inline-flex;
+  float: center;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  /* margin-top: 3rem; */
+}
+
+.prod h3 {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+.prod h3 span {
+  color: black;
+}
+.prod .pric {
+  font-size: 21px;
+
+  text-align: center;
+}
+/*trimmer image section End*/
+
+/* Page session start*/
+
+.pagination {
+  text-align-last: center;
+
+  text-align: center;
+  margin-top: 8rem;
+  position: relative;
+}
+.pagination li {
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  font-size: 23px;
+  display: inline-flex;
+  list-style: none;
+  margin: 1.5rem;
+  padding: 2rem;
+  color: #000000;
+  color: #ffffff;
+  background-color: #1d4354;
+}
+.pagination :hover {
+  color: #ffffff;
+  background-color: #1d4354;
+}
+
+/* Page session End*/
+
+/*details page start*/
+
+.slides {
+  width: 32rem;
+  margin-left: 40rem;
+
+  position: relative;
+
+  margin-top: 8rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0rem 0rem 0rem 0.2rem,
+    rgba(6, 24, 44, 0.65) 0rem 0.4rem 0.6rem -0.1rem,
+    rgba(255, 255, 255, 0.08) 0rem 0.1rem 0rem;
+  border-radius: 2.5rem;
+  z-index: 0rem;
+  background: ;
+}
+
+.slides img {
+  border-radius: 2.5rem;
+  z-index: 0rem;
+  display: flex;
+}
+
+/* Next & previous buttons */
+.prv,
+.net {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1.6rem;
+  margin-top: -2.2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: 0.6s ease;
+  border-radius: 0 0.3rem 0.3rem 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.net {
+  right: 0;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prv:hover,
+.net:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+
+/*details page End*/
+
+@media (max-width: 991px) {
+  .breadcrumb {
+    padding: 8px 0;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .center-responsive {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  .center-responsive {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* cart page End */
+
+/* my_account page Start */
+
+/* my_account page End */
+/* my_order page Start */
+
+/* my_order page End */
+/* confirm page Start */
+/* contact Us page Start */
+
+/* contact Us page End */
+
+/* pay_offline page End */
+
+/* Edit_account page srart */
+
+/* Edit_account page End */
+
+/* Footer Section End */
+.position {
+  position: relative;
+  margin-bottom: 110vh;
+}
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  color: #0a0909;
+  margin-left: 28%;
+  margin-bottom: 50px;
+}
+
+.header2 p {
+  font-style: italic;
+  font-size: 70px;
+  font-weight: bold;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 12.5s steps(22), cursor 80s step-end infinite alternate;
+}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}

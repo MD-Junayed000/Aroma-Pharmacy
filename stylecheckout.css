@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --blue: #2980b9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*  just body where we put the image  */
+body {
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+.heading {
+  border-bottom: 0.4rem solid #1d4354;
+  margin: ;
+}
+
+.heading span {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: ;
+  color: #fff;
+  background: #1d4354;
+  border-top-right-radius: 45rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1;
+  border-top-left-radius: 45rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  /* background-color: #1d4354; */
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  /* margin-top: 1rem; */
+  background: linear-gradient(
+    135deg,
+    #e123de 0%,
+    #de005e 25%,
+    #f64865 50%,
+    #de005e 75%,
+    #e123de 100%
+  );
+  margin-bottom: 8px;
+  font-weight: 500;
+  border: 2px solid rgb(124, 9, 43);
+  color: #000;
+}
+.btn:hover {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+  color: white;
+}
+
+/* NEW THIS WEEK START */
+
+/* Daily Use Products Section End*/
+
+/* Deals Section End*/
+
+/*News Letter Section End*/
+/* trimmer page section start */
+
+.col-m-9 {
+  color: #000000;
+  text-align: left;
+  background-color: ;
+}
+.products {
+  margin-top: 1rem;
+}
+.boxi {
+}
+.boxi h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  width: ;
+}
+.boxi p {
+  text-align: leftf;
+}
+.col-md-12 {
+  padding: 8px 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  width: 100rem;
+  z-index: 0;
+  margin: auto;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.breadcrumb {
+  list-style: none;
+  text-align: center;
+  z-index: 0;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: #1d4354;
+}
+.breadcrumb span {
+  text-align: center;
+}
+.breadcrumb :before {
+  content: "\00a0";
+  color: #cccccc;
+  z-index: 0;
+}
+
+/*Product Category End*/
+/*trimer image section Start*/
+
+/*trimmer image section End*/
+
+/* Page session End*/
+
+/* cart page start */
+.image {
+  z-index: -1;
+  position: absolute;
+}
+.image img {
+  width: 100%;
+}
+.col-md-9 {
+  margin-left: 26%;
+  /* background-color: #ffffff; */
+  font-size: 1.5rem;
+  width: 50%;
+  /* height: 100vh; */
+  align-items: center;
+  text-align: center;
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); */
+  display: inline-flex;
+}
+/* notjing */
+.col-md-9 .box {
+  background: ;
+  align-self: center;
+  margin: auto;
+  margin-top: -25px;
+}
+.col-md-9 .box h1 {
+  align-items: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#7b0f0f, #ff0051);
+  font-size: 35px;
+  padding: 1rem 1rem;
+}
+.col-md-9 .box p {
+  text-align: center;
+  color: #000;
+}
+.col-md-9 .box span {
+  color: #fff;
+}
+.col-md-9 .box .lead-text-center {
+  background: green;
+  cursor: pointer;
+  margin-top: 0px;
+  padding: 10px;
+}
+.col-md-9 .box .lead-text-center:hover {
+  background: blue;
+  background: #ff4b00;
+}
+.col-md-9 .box .lead {
+  margin-top: 0px;
+}
+.lead img {
+  background: linear-gradient(#5c123e, rgb(255, 0, 51));
+}
+.col-md-9 .box .lead span {
+  border: 0px solid black;
+  background: #ff4b00;
+  padding: 1rem;
+}
+.col-md-9 .box .lead span:hover {
+  background: black;
+}
+.table tbody tr td img {
+  width: 50%;
+}
+.table tr th {
+  border-bottom: 0.1rem solid #1d4354;
+  padding: ;
+}
+.table tr td {
+  text-align: center;
+  border-bottom: 0.1rem solid #1d4354;
+}
+.box-footer {
+  padding: 4rem;
+}
+.box-footer .pull-left h4 {
+  font-size: 2.5rem;
+}
+.box-footer .pull-right h4 {
+  font-size: 2.5rem;
+}
+
+.form-container {
+  width: 100%;
+  z-index: 2;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+/* cart page End */
+
+/* my_account page End */
+/* my_order page Start */
+
+/* my_order page End */
+/* confirm page Start */
+/* contact Us page Start */
+.c-9 {
+  width: 50%;
+  margin-top: 3rem;
+  align-items: center;
+  font-size: 2rem;
+  display: inline-flex;
+  margin-left: 51.5rem;
+  background-color: ;
+}
+.c-9 label {
+  width: 67%;
+  background-color: #ffffff;
+}
+.c-9 input {
+  width: 67%;
+}
+.c-9 select {
+  width: 67%;
+}
+.box-header p {
+  margin-top: 15px;
+
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: -12px;
+  color: aliceblue;
+}
+.box-header h2 {
+  margin-top: 15px;
+  font-size: 45px;
+}
+.regis {
+  margin-bottom: 18px;
+}
+.regis a {
+  color: #1d4354;
+  text-align: center;
+}
+::placeholder {
+  font-weight: 600;
+  color: #575757;
+  font-size: 18px;
+}
+/* contact Us page End */
+.co-9 {
+  width: 67%;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  font-size: 2rem;
+  display: inline-flex;
+
+  background-color: ;
+}
+.co-9 label {
+  width: 67%;
+  background-color: #ffffff;
+}
+.co-9 input {
+  width: 67%;
+}
+.co-9 select {
+  width: 67%;
+}
+.text-center button {
+  padding: 1rem;
+}
+/* Confirm page End */
+/* pay_offline page start */
+
+/*  */
+/* pay_offline page End */
+
+/* Edit_account page srart */
+
+.rx {
+  margin: auto;
+  width: 67%;
+  box-shadow: 1px 1.5px 5.5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(#7b0f0f, #ff0051);
+}
+.rx .roup {
+  margin: 1.5rem;
+  font-size: 25px;
+  font-weight: 500;
+}
+.rx .roup input {
+  background-color: #ffffff;
+  width: 88%;
+  padding: 0.5rem;
+  font-size: 22px;
+}
+
+.rx .roup img {
+  margin-top: 3rem;
+}
+.rx .roup textarea {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0.5rem;
+}
+/* Edit_account page End */
+
+/* Footer Section End */
+.forgot {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 13px;
+  margin-left: -44%;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.forgot a {
+  color: #ffffff;
+}
+/* Existing CSS code */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  /* Image Section */
+  .image {
+    text-align: center; /* Center image horizontally on mobile */
+  }
+
+  .image img {
+    width: 100%; /* Set image width to 100% for mobile */
+  }
+
+  /* Form Container */
+  .form-container {
+    padding: 20px; /* Add padding for spacing on mobile */
+  }
+
+  .col-md-9 {
+    margin-left: 0; /* Remove left margin on mobile */
+    width: 100%; /* Set form width to 100% for mobile */
+    font-size: 14px; /* Reduce font size for mobile */
+  }
+
+  .col-md-9 .box {
+    margin-top: 0; /* Remove top margin on mobile */
+  }
+
+  .col-md-9 .box h1 {
+    font-size: 28px; /* Reduce heading size for mobile */
+  }
+
+  .col-md-9 .box p,
+  .col-md-9 .box span,
+  .col-md-9 .rx .roup {
+    font-size: 14px; /* Reduce text size for mobile */
+  }
+
+  .col-md-9 .rx {
+    width: 90%; /* Adjust form width for mobile */
+  }
+
+  .col-md-9 .rx .roup input,
+  .col-md-9 .rx .roup textarea {
+    padding: 8px; /* Adjust padding for input fields on mobile */
+  }
+
+  .forgot {
+    margin-left: 0; /* Remove left margin for forgot password link on mobile */
+    margin-top: 10px; /* Add top margin for spacing on mobile */
+  }
+}
+/* Responsive Styles */
+@media only screen and (max-width: 1024px) {
+  .box {
+    width: 80%;
+    margin: auto;
+  }
+  .col-md-9 {
+    width: 70%;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .lead img {
+    width: 100%;
+  }
+  .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Image Section */
+  .image {
+    text-align: center; /* Center image horizontally on mobile */
+  }
+
+  .image img {
+    width: 100%; /* Set image width to 100% for mobile */
+  }
+
+  /* Form Container */
+  .box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .col-md-9 {
+    margin-left: 110px;
+    /* width: 100%;/* Set form width to 100% for mobile */
+    font-size: 14px; /* Reduce font size for mobile */
+  }
+
+  .col-md-9 .box {
+    margin-top: 0; /* Remove top margin on mobile */
+  }
+
+  .col-md-9 .box h1 {
+    font-size: 28px; /* Reduce heading size for mobile */
+  }
+
+  .col-md-9 .box p,
+  .col-md-9 .box span,
+  .col-md-9 .rx .roup {
+    font-size: 14px; /* Reduce text size for mobile */
+  }
+
+  .col-md-9 .rx {
+    width: 90%; /* Adjust form width for mobile */
+  }
+
+  .col-md-9 .rx .roup input,
+  .col-md-9 .rx .roup textarea {
+    padding: 8px; /* Adjust padding for input fields on mobile */
+  }
+
+  .forgot {
+    margin-left: 0; /* Remove left margin for forgot password link on mobile */
+    margin-top: 10px; /* Add top margin for spacing on mobile */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 95%;
+    margin: auto;
+  }
+  .col-md-9 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lead img {
+    width: 100%;
+  }
+  .box h1 {
+    font-size: 24px;
+  }
+  .box .lead-text-center,
+  .box .lead {
+    font-size: 16px;
+  }
+  .box .lead span {
+    padding: 0.5rem;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 16px;
+  }
+  .heading span {
+    font-size: 1.2rem;
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}

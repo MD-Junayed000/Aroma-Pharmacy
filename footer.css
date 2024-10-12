@@ -1,0 +1,410 @@
+/*  footer er kaj  */
+footer {
+  width: 100%;
+  position: relative;
+  bottom: -16px;
+  background: linear-gradient(to right, #000000, #ce1e2d);
+  color: #ffffff;
+  padding: 15px 0px 2px;
+  border-top-left-radius: 140px;
+  font-size: 17px;
+}
+
+.row {
+  width: 77%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 1;
+  padding: 10px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+.logofoot {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.col h3 {
+  border-bottom: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.email-id {
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.news {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #fffdfd;
+  margin-bottom: 10px;
+}
+
+#one {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+#two {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.news input {
+  width: 100%;
+  height: 5vh;
+  color: #000000;
+  border: 0;
+  outline: none;
+  margin-left: 1%;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.news button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons .ione,
+.social-icons .itwo,
+.social-icons .ithree,
+.social-icons .ifour {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.social-icons .ione:hover,
+.social-icons .itwo:hover,
+.social-icons .ithree:hover,
+.social-icons .ifour:hover {
+  font-size: 42px;
+  position: relative;
+}
+
+.social-icons .ione {
+  color: #5335cf;
+}
+
+.social-icons .itwo {
+  color: #1d9017;
+}
+
+.social-icons .ithree {
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #2000ff 25%,
+    #ffffff 50%,
+    #0308ff 75%,
+    #5335cf 100%
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-icons .ifour {
+  background: linear-gradient(
+    135deg,
+    #ff0d00 0%,
+    #ff006a 25%,
+    #f66e48 50%,
+    #ff4000 75%,
+    #ff8400 100%
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.design {
+  opacity: 0.7;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 5px;
+  font-weight: 700;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 15px;
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #8f8d8d;
+  bottom: -5px;
+  left: 0;
+}
+
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  left: 10px;
+  border-radius: 5px;
+  position: absolute;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
+
+.pay {
+  font-weight: bold;
+}
+
+.pay2 {
+  margin-left: -12px;
+  background-image: url(./image/pay2.png);
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 150%;
+  background-position: 0%;
+}
+
+/* Responsive styles */
+/* @media (max-width: 1024px) {
+  .row {
+    width: 90%;
+    margin-right: auto;
+  }
+
+  .logofoot {
+    width: 80px;
+  }
+
+  .social-icons .ione,
+  .social-icons .itwo,
+  .social-icons .ithree,
+  .social-icons .ifour {
+    font-size: 30px;
+  }
+
+  .social-icons .ione:hover,
+  .social-icons .itwo:hover,
+  .social-icons .ithree:hover,
+  .social-icons .ifour:hover {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 10px 0px;
+  }
+
+  .row {
+  
+    width: 100%;
+    margin-right: auto;
+    align-items: inherit;
+  }
+
+  .col {
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .news input {
+    height: 4vh;
+    font-size: 14px;
+  }
+
+  .news button,
+  #one,
+  #two {
+    font-size: 25px;
+  }
+
+  .social-icons .ione,
+  .social-icons .itwo,
+  .social-icons .ithree,
+  .social-icons .ifour {
+    font-size: 25px;
+  }
+
+  .social-icons .ione:hover,
+  .social-icons .itwo:hover,
+  .social-icons .ithree:hover,
+  .social-icons .ifour:hover {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 5px 0px;
+  }
+
+  .row {
+    width: 100%;
+    margin-right: auto;
+   
+    justify-content: center;
+  }
+
+  .col {
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  }
+
+  .logofoot {
+    width: 60px;
+  }
+
+  .social-icons .ione,
+  .social-icons .itwo,
+  .social-icons .ithree,
+  .social-icons .ifour {
+    font-size: 20px;
+  }
+
+  .social-icons .ione:hover,
+  .social-icons .itwo:hover,
+  .social-icons .ithree:hover,
+  .social-icons .ifour:hover {
+    font-size: 25px;
+  }
+
+  .news input {
+    height: 3vh;
+    font-size: 12px;
+  }
+
+  .news button,
+  #one,
+  #two {
+    font-size: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+} */
+
+/* Existing CSS code */
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  /* Footer Section */
+  footer {
+    padding: 20px 10px; /* Adjust padding for better spacing on mobile */
+  }
+
+  .row {
+    flex-direction: column; /* Stack footer elements vertically on mobile */
+    align-items: center; /* Center elements horizontally on mobile */
+    width: 100%; /* Set full width for footer on mobile */
+    text-align: center;
+  }
+
+  .col {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; /* Add margin for spacing */
+  }
+
+  .col h3 {
+    border-bottom: none; /* Remove underline on mobile */
+    padding-bottom: 10px; /* Add padding for spacing */
+  }
+
+  .col:nth-child(2),
+  .col:nth-child(3) {
+    margin-top: 20px; /* Add top margin for spacing between contact and links columns */
+  }
+
+  .social-icons {
+    justify-content: center; /* Center social icons horizontally on mobile */
+  }
+
+  .social-icons .ione,
+  .social-icons .itwo,
+  .social-icons .ithree,
+  .social-icons .ifour {
+    font-size: 28px; /* Reduce social icon size for mobile */
+  }
+
+  .news input {
+    font-size: 14px; /* Reduce input field size for mobile */
+  }
+
+  .pay2 {
+    background-position: center; /* Center payment image on mobile */
+    width: auto;
+  }
+
+  .design {
+    font-size: 14px; /* Reduce designer names font size for mobile */
+  }
+
+  .copyright {
+    font-size: 14px; /* Reduce copyright text size for mobile */
+  }
+}

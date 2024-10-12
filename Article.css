@@ -1,0 +1,476 @@
+/*  whole web-page er    */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+/*  just body where we put the image  */
+/*na chaile ei portion ta delete koris*/
+body {
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #fad1ff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ff402b, #ff2268);
+  border-radius: 15px;
+}
+
+/* Article */
+.content {
+  width: 90%;
+  margin: 20px auto 40px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content .main-content {
+  width: 100%;
+  float: left;
+}
+.content .main-content .post {
+  width: 85%;
+  height: 340px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #eec1c1; /*(Colour ta change koris)*/
+  position: relative;
+}
+.content .main-content .recent-post-title {
+  text-align: center;
+  margin-top: -18px;
+  margin-bottom: 44px;
+
+  font-size: 4em;
+  color: rgb(147, 17, 17);
+  position: relative;
+  -webkit-text-stroke: 0.1vw rgb(188, 61, 15);
+  text-transform: uppercase;
+  display: flex;
+}
+.content .main-content .recent-post-title::before {
+  content: attr(data-text);
+  color: #e21370;
+  -webkit-text-stroke: 0vw rgb(188, 15, 15);
+  /* border-right: 5px solid #e24313; */
+
+  width: 0%;
+  height: 100%;
+  overflow: hidden;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0%;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.content .main-content .post .post-image {
+  height: 100%;
+  float: left;
+  width: 340px;
+  margin-right: 30px;
+}
+.content .main-content .post .post-preview {
+  padding: 10px 5px 5px 5px;
+}
+.post-preview h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* Article er Button       */
+.btn {
+  padding: 0.5rem 1rem;
+  background: rgb(127, 79, 17);
+  color: rgb(147, 17, 17);
+  border: 5px solid transparent;
+  border-radius: 15px;
+}
+.btn:hover {
+  background-color: rgb(149, 142, 149);
+  color: rgb(255, 30, 0);
+}
+.content .main-content .post .read-more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid rgb(223 16 129 / 96%);
+  background: transparent;
+  border-radius: 0px;
+  color: rgb(223 16 129 / 96%);
+}
+
+.content .main-content .post .read-more:hover {
+  background-color: rgb(223 16 129 / 96%);
+  color: rgb(255 189 180);
+  transition: 0.25s;
+}
+.aroow {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 0.8rem;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.aroow span {
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.aroow .current {
+  background-color: #c30b0b;
+  color: #ffffff;
+}
+.aroow i {
+  font-size: 30px;
+}
+.aroow i:hover {
+  background-color: #c30b0b;
+  color: #ffffff;
+}
+.aroow span:hover {
+  background-color: #c30b0b;
+  color: #ffffff;
+}
+.preview-text {
+  text-align: justify;
+  margin-top: 15px;
+  padding: 0px 50px 20px 0px;
+}
+/* Background er Video       */
+.hero {
+  width: 100%;
+  height: 62vh;
+  /* Video upor inspirational likka dekhar jonno gradient add korsi.......Change koris       */
+  background-image: linear-gradient(
+    rgba(232, 8, 150, 0.3),
+    rgba(12, 3, 51, 0.3)
+  );
+  position: relative;
+  padding: 0 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.video-content {
+  text-align: center;
+}
+.video-content h1 {
+  font-size: 80px;
+  color: #fff;
+  transition: 0.5s;
+}
+.video-content p {
+  color: #ffffff;
+  margin-left: 1000px;
+  transition: 0.5s;
+}
+.video-content p:hover {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-style: italic;
+}
+.video-content h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+.background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 62vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+/*scroll to the top button*/
+
+#btnScrollToTop {
+  z-index: 1;
+  position: fixed;
+  right: 3.5%;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #c30b0b;
+  font-size: 2rem;
+  border-color: #c30b0b;
+  box-shadow: 0 0 7px rgba(0, 0, 0.25);
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+#btnScrollToTop:active {
+  background: #ab1818;
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  #btnScrollToTop {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+    bottom: 40px;
+    right: 4%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  #btnScrollToTop {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    bottom: 30px;
+    right: 4.5%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  #btnScrollToTop {
+    font-size: 1.2rem;
+    bottom: 55px;
+    right: 15%;
+  }
+  body {
+    background-size: cover;
+  }
+}
+/* Responsive video styles */
+/* Responsive Styles for .hero section */
+@media (max-width: 1024px) {
+  .hero {
+    /* height: 40vh; */
+    padding: 0 1%;
+    margin-bottom: 30px;
+    /* margin-top: 130px; */
+    background-size: cover;
+    background-image: linear-gradient(
+      rgba(232, 8, 150, 0.3),
+      rgba(12, 3, 51, 0.3)
+    );
+  }
+  .video-content h1 {
+    font-size: 60px;
+  }
+  .video-content p {
+    margin-left: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    /* height: 40vh; */
+    padding: 0 1%;
+    margin-bottom: 30px;
+    /* margin-top: 130px; */
+    background-size: cover;
+    background-image: linear-gradient(
+      rgba(232, 8, 150, 0.3),
+      rgba(12, 3, 51, 0.3)
+    );
+  }
+  .video-content h1 {
+    font-size: 40px;
+  }
+  .video-content p {
+    margin-left: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    /* height: 40vh; */
+    padding: 0 1%;
+    margin-bottom: 30px;
+    /* margin-top: 130px; */
+    background-size: cover;
+    background-image: linear-gradient(
+      rgba(232, 8, 150, 0.3),
+      rgba(12, 3, 51, 0.3)
+    );
+  }
+  .video-content h1 {
+    font-size: 30px;
+  }
+  .video-content p {
+    margin-left: 20px;
+  }
+  .video-content h1,
+  .video-content p {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+/* Responsive Styles for .content section */
+@media (max-width: 1024px) {
+  .content {
+    width: 95%;
+    margin: 10px auto 20px;
+  }
+  .content .main-content .post {
+  }
+  .content .main-content .recent-post-title {
+    font-size: 3em;
+  }
+  .content .main-content .post .post-preview h2 {
+    font-size: 30px;
+  }
+  .content .main-content .post .preview-text {
+    padding: 0px 30px 20px 0px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 98%;
+    margin: 10px auto 20px;
+  }
+  .content .main-content .recent-post-title {
+    font-size: 2.5em;
+  }
+  .content .main-content .post .post-preview h2 {
+    font-size: 20px;
+  }
+  .content .main-content .post {
+    height: 320px;
+  }
+  .content .main-content .post .post-image {
+    width: 300px;
+  }
+  .content .main-content .post .post-preview {
+    width: 48%;
+    float: right;
+    /* margin-right: -0px; */
+    margin-top: 5px;
+  }
+
+  .content .main-content .post .preview-text {
+    padding: 0px 20px 10px 0px;
+    font-size: 10px;
+  }
+  .content .main-content .post .read-more {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 100%;
+    margin: 5px auto 10px;
+  }
+  .content .main-content .recent-post-title {
+    font-size: 2em;
+  }
+  .content .main-content .post {
+    width: 100%;
+    height: auto;
+    background: #eec1c1;
+  }
+  .content .main-content .post .post-image {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .content .main-content .post .post-preview {
+    padding: 10px;
+    width: 100%;
+    float: none;
+  }
+  .content .main-content .post .post-preview h2 {
+    font-size: 20px;
+  }
+  .content .main-content .post .preview-text {
+    padding: 5px 0;
+    margin-bottom: 30px;
+  }
+  .aroow {
+    justify-content: center;
+  }
+}
+/* For screens 1024px and below */
+@media (max-width: 1024px) {
+  body {
+    background-position: center; /* Keeps the image centered */
+  }
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 480px) {
+  body {
+    background-size: contain; /* Adjusts the background to fit the screen */
+    background-position: top; /* Align the image to the top */
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure no child element is causing overflow */
+  * {
+    overflow-x: clip;
+    scrollbar-width: none;
+  }
+}
+@media (max-width: 480px) {
+  #btnScrollToTop {
+    font-size: 1.5rem;
+    bottom: 55px;
+    /* right: 15%; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure no child element is causing overflow */
+}
