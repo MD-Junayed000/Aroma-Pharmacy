@@ -5,15 +5,22 @@ AroInsa Medicine Solution is a comprehensive **pharmaceutical e-commerce platfor
 **Key Features**
 
 •	**Browse and Purchase Medicines:** Users can easily browse categorized medicinal products, view detailed descriptions, and purchase them through a secure checkout process.
+
 •	**Consult with Doctors:** The platform offers direct communication with healthcare professionals via WhatsApp, email, or by interacting with AroBot, an intelligent chatbot.
+
 •	**Dynamic Cart and Checkout:** Users can add, modify, or remove items from their shopping cart, with multiple payment options available for a seamless transaction process.
+
 •	**Health Articles & Insights:** Access a library of health-related articles covering topics like nutrition, wellness, and managing chronic conditions to stay informed and make better health decisions.
+
 •	**Admin Panel:** The website is equipped with a robust admin panel, where administrators can manage orders, payments, customer accounts, and products efficiently.
 
 **Tech Stack**
 •	**Frontend:** HTML, CSS, JavaScript
+
 •	**Backend:** PHP
+
 •	**Database:** MySQL
+
 •	**Tools:** Visual Studio Code, Git, GitHub
 
 **How It Works**
