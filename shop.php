@@ -470,7 +470,8 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>                </a>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>
+                </a>
                 <div class="social-icons">
           
              <span class="itwo"><i class="bx bxl-whatsapp"></i></span>
@@ -481,7 +482,7 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
             </div>
             <div class="col">
             <h3>Our Details <div class="underline"><span></span></div></h3>
-   
+ 
             <p class="email-id"><a href="mailto:u2008023@student.cuet.ac.bd">u2008023@student.cuet.ac.bd</a></p>
             <h4><p>+880-1876220119</p></h4>
         
@@ -516,7 +517,8 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>        </p>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>
+        </p>
     </footer>
 </html>
 </body>
