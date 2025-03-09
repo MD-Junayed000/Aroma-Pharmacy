@@ -14,7 +14,7 @@ if (!isset($_SESSION['customer_email'])) {
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
-<title>AroInsa Medicine Solution</title>
+<title>Aroma Pharmacy</title>
     <link rel="stylesheet" href="whatsapp.css">
     <link rel="icon" type="image/png" href="./image/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">

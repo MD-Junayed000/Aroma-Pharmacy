@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
 
-                $mail->setFrom('aroinsamedicinesolution@gmail.com', 'AroInsa Medicine Solution');
+                $mail->setFrom('aroinsamedicinesolution@gmail.com', 'Aroma Pharmacy');
                 $mail->addAddress($email);
                 $mail->isHTML(true);
 
@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
                 $mail->Body = "
                 <h2>Password Reset</h2>
                 <p>Click the link below to reset your password:</p>
-                      <a href='http://localhost/AroInsa%20Website/reset_password.php?token=$token'>Reset Password</a>
+                      <a href='http://localhost/Aroma-Pharmacy/reset_password.php?token=$token'>Reset Password</a>
                 ";
                 $mail->send();
                 echo "<script>alert('Password reset link has been sent to your email.');</script>";
@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- owl carousel css file cdn link  -->

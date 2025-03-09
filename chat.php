@@ -22,7 +22,7 @@ $customer_id = $customer_row['customer_id'];
 <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
     <link rel="icon" type="image/png" href="./image/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">

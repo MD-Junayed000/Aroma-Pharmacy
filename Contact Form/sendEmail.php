@@ -55,7 +55,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
         $confirmationMail->Port = 465;
         $confirmationMail->SMTPSecure = "ssl";
         $confirmationMail->isHTML(true);
-        $confirmationMail->setFrom("aroinsamedicinesolution@gmail.com", "ArIonsa Medicine Solution");
+        $confirmationMail->setFrom("aroinsamedicinesolution@gmail.com", "Aroma Pharmacy");
         $confirmationMail->addAddress($email);
         $confirmationMail->Subject = "Confirmation: We Have Received Your Message";
         $confirmationMail->Body = "

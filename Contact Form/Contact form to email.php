@@ -22,7 +22,7 @@ if (!isset($_SESSION['customer_email'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- scroll -->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>AroInsa Medicine Solution</title>
+      <title>Aroma Pharmacy</title>
     <!--link to the Css page-->
     <link rel="stylesheet" href="Contact form to email.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

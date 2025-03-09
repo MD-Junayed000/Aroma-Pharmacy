@@ -13,7 +13,7 @@ include("functions/functions.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- scroll -->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>AroInsa Medicine Solution</title>
+      <title>Aroma Pharmacy</title>
     <!--link to the Css page-->
     <link rel="stylesheet" href="Ask a doctor.css" />
    
@@ -121,7 +121,7 @@ include("functions/functions.php");
    <a href="whatsapp.php"><button><i class="fa-brands fa-square-whatsapp fa-2x" style="color: chartreuse;"></i> Call Support</button></a>
     <a href="./Contact Form/Contact form to email.php"><button><i class="fa-solid fa-envelope fa-2x" style="color: rgb(255, 150, 85);"       ></i> Mail the Doctor</button></a>
     </div>
-    <a href="chat.php"><button ><i class="fa-solid fa-heart-pulse fa-2x" style="color: rgb(236, 56, 80);" ></i> Ask AroInsa</button></a>
+    <a href="chat.php"><button ><i class="fa-solid fa-heart-pulse fa-2x" style="color: rgb(236, 56, 80);" ></i> Ask Aroma</button></a>
   </div>
   
  </section>
@@ -215,8 +215,7 @@ function scrollToTop(){
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit AroInsa Medicine Solution</p><p>To unlock a Healthier you </p>
-                </a>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>                </a>
                 <div class="social-icons">
           
              <span class="itwo"><i class="bx bxl-whatsapp"></i></span>
@@ -227,10 +226,10 @@ function scrollToTop(){
             </div>
             <div class="col">
             <h3>Our Details <div class="underline"><span></span></div></h3>
-            <p class="email-id"><a href="mailto:u2008020@student.cuet.ac.bd">u2008020@student.cuet.ac.bd</a></p>
+  
             <p class="email-id"><a href="mailto:u2008023@student.cuet.ac.bd">u2008023@student.cuet.ac.bd</a></p>
             <h4><p>+880-1876220119</p></h4>
-            <h4><p>+880-1558711356</p></h4>
+   
             </div>
     
             <div class="col">
@@ -262,8 +261,7 @@ function scrollToTop(){
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 AroInsa Medicine Solution.All Rights Reserved; Designed by <span class="design">IFFAT ARA </span> & <span class="design"> MUHAMMED JUNAYED </span>
-        </p>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>        </p>
     </footer>
 
 

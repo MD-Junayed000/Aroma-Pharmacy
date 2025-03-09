@@ -8,7 +8,7 @@ include("functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -470,8 +470,7 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit AroInsa Medicine Solution</p><p>To unlock a Healthier you </p>
-                </a>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>                </a>
                 <div class="social-icons">
           
              <span class="itwo"><i class="bx bxl-whatsapp"></i></span>
@@ -482,10 +481,10 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
             </div>
             <div class="col">
             <h3>Our Details <div class="underline"><span></span></div></h3>
-            <p class="email-id"><a href="mailto:u2008020@student.cuet.ac.bd">u2008020@student.cuet.ac.bd</a></p>
+   
             <p class="email-id"><a href="mailto:u2008023@student.cuet.ac.bd">u2008023@student.cuet.ac.bd</a></p>
             <h4><p>+880-1876220119</p></h4>
-            <h4><p>+880-1558711356</p></h4>
+        
             </div>
     
             <div class="col">
@@ -517,8 +516,7 @@ document.querySelectorAll('.btn-decrement').forEach(function(button) {
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 AroInsa Medicine Solution.All Rights Reserved; Designed by <span class="design">IFFAT ARA </span> & <span class="design"> MUHAMMED JUNAYED </span>
-        </p>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>        </p>
     </footer>
 </html>
 </body>

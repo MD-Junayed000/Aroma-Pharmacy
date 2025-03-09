@@ -12,7 +12,7 @@ include("../functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
      <!--link of the icon on tab-->
      <link rel="icon" type="image/png" href="../image/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
