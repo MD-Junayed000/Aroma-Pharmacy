@@ -1,6 +1,6 @@
-# AroInsa-Medicine-Solution-website
+# Aroma Pharmacy
 
-AroInsa Medicine Solution is a comprehensive **pharmaceutical e-commerce platform** designed to provide users with an easy and secure way to browse, select, and purchase medicinal products.The platform includes robust features like doctor consultations, a dynamic shopping cart, secure checkout, health articles, and an admin panel for efficient management.
+Aroma Pharmacy is a comprehensive **pharmaceutical e-commerce platform** designed to provide users with an easy and secure way to browse, select, and purchase medicinal products.The platform includes robust features like doctor consultations, a dynamic shopping cart, secure checkout, health articles, and an admin panel for efficient management.
 
 **Key Features**
 
