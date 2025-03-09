@@ -15,7 +15,7 @@
         <img src="/Aroma-Pharmacy/image/About.png">
 <div class="all-text">
     <h4>About Us</h4>
-    <h1>Your Path to Health and Healing: Experience the Difference with AroInsa Medicine</h1>
+    <h1>Your Path to Health and Healing: Experience the Difference with Aroma Pharmacy</h1>
     <p>Aroma Pharmacy is a pharmaceutical based E-commerce platform that is commited to get the best services to the customers.This organization has been formed by the co-operations of Venture Capital Firms: Aroma Pharmacy.For any sort of enquiry contact it's founder <span>MUHAMMAD JUNAYED </span>. 
     </p>
     <div class="btn">
