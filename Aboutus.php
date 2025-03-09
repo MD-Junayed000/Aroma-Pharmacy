@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="aboutus.css">
     <link rel="icon" type="image/png" href="./image/icon.png" />
@@ -12,11 +12,11 @@
 
 <section class="about">
     <div class="main">
-        <img src="/AroInsa Website/image/About us new.png">
+        <img src="/Aroma-Pharmacy/image/About.png">
 <div class="all-text">
     <h4>About Us</h4>
     <h1>Your Path to Health and Healing: Experience the Difference with AroInsa Medicine</h1>
-    <p>AroInsa is a pharmaceutical based E-commerce platform that is commited to get the best services to the customers.This organization has been formed by the mutual co-operations of Venture Capital Firms: Aroma Pharmacy and Insan Hospital.For any sort of enquiry contact it's founder <span>MUHAMMED JUNAYED </span> and<span> Iffat ARA.</span>
+    <p>Aroma Pharmacy is a pharmaceutical based E-commerce platform that is commited to get the best services to the customers.This organization has been formed by the co-operations of Venture Capital Firms: Aroma Pharmacy.For any sort of enquiry contact it's founder <span>MUHAMMAD JUNAYED </span>. 
     </p>
     <div class="btn">
        
@@ -54,8 +54,7 @@
             <div class="tooltip">
                linkedin
             </div>
-            <span><a href="www.linkedin.com/in/
-mohammad-junayed-ete20
+            <span><a href="https://www.linkedin.com/in/mohammad-junayed-ete20/
 "><i class="fab fa-linkedin"style="color: #000000;"></i>
 </a></span>
          </div>

@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
  <!--link to the Css page-->   <link rel="stylesheet" href="contactus.css">
  <link rel="stylesheet" href="head.css" />
 <link rel="stylesheet" href="footer.css" />
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <h3>Call Details</h3>
        <hr>
     <p>+880-176220119</p>
-    <p>+880-1558711356</p>
+  
                     </div>
                 </div>
                  <div class="col2">
@@ -142,8 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                    
     <h3> Email us</h3>
        <hr>
-    <p>u2008020@student.cuet.ac.bd</p>
-    <p>u2008023@student.cuet.ac.bd</p>
+    <p>mdjunayed573@gmail.com</p>
                     </div>
                 </div>
                  <div class="col2">
@@ -246,21 +245,21 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <div class="container">
         <div class="about-content"data-aos="fade-up"  data-aos-delay="100" data-aos-duration="1000">
             <h1>For more Query</h1>
-            <p>Visit the AroInsa Medicine Solution  <br>from the following link.</p>
+            <p>Visit the Aroma Pharmacy  <br>from the following link.</p>
 <button class="btn-primary"><a href="Aboutus.php">About Us</a></button>
 
         </div>
 <div class="about-image" data-aos="fade-up"  data-aos-delay="1500" data-aos-duration="1500">
-    <img src="./image/About us new small.png">
+    <img src="./image/small.jpg">
 </div>
     </div> 
 </section>   
 
-<!-- why choose AroInsa -->
+<!-- why choose Aroma -->
 
 <section class="steps-section-container" data-aos="fade-in"     data-aos-delay="200" data-aos-offset="200">
 <div class="steps-bg">
-  <h2 class="section-title" data-text="?Choose AroInsa">?Choose AroInsa</h2>
+  <h2 class="section-title" data-text="?Choose Aroma">?Choose Aroma</h2>
   <div class="steps-container grid">
     <!-- step1 -->
     <div class="hoverr">
@@ -346,8 +345,7 @@ function scrollToTop(){
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit AroInsa Medicine Solution</p><p>To unlock a Healthier you </p>
-                </a>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>                </a>
                 <div class="social-icons">
           
              <span class="itwo"><i class="bx bxl-whatsapp"></i></span>
@@ -358,10 +356,9 @@ function scrollToTop(){
             </div>
             <div class="col">
             <h3>Our Details <div class="underline"><span></span></div></h3>
-            <p class="email-id"><a href="mailto:u2008020@student.cuet.ac.bd">u2008020@student.cuet.ac.bd</a></p>
             <p class="email-id"><a href="mailto:u2008023@student.cuet.ac.bd">u2008023@student.cuet.ac.bd</a></p>
             <h4><p>+880-1876220119</p></h4>
-            <h4><p>+880-1558711356</p></h4>
+           
             </div>
     
             <div class="col">
@@ -393,8 +390,7 @@ function scrollToTop(){
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 AroInsa Medicine Solution.All Rights Reserved; Designed by <span class="design">IFFAT ARA </span> & <span class="design"> MUHAMMED JUNAYED </span>
-        </p>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>        </p>
     </footer>
  
 <!-- Animation -->

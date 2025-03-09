@@ -15,7 +15,7 @@ include("functions/functions.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- scroll -->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>AroInsa Medicine Solution</title>
+      <title>Aroma Pharmacy</title>
      <!--link of the icon on tab-->
      <link rel="icon" type="image/png" href="./image/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -201,7 +201,7 @@ include("functions/functions.php");
     
 
             <h3>Skin Care</h3>
-            <p>Nourish your skin with the best skin care products and medicine at AroInsa.</p>
+            <p>Nourish your skin with the best skin care products and medicine at Aroma.</p>
    
            </div>
          </div>
@@ -471,8 +471,7 @@ function scrollToTop(){
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit AroInsa Medicine Solution</p><p>To unlock a Healthier you </p>
-                </a>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>                </a>
                 <div class="social-icons">
           
              <span class="itwo"><i class="bx bxl-whatsapp"></i></span>
@@ -520,9 +519,7 @@ mohammad-junayed-ete20
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 AroInsa Medicine Solution.All Rights Reserved; Designed by <span class="design">IFFAT ARA </span> & <span class="design"> MUHAMMED JUNAYED </span>
-        </p>
-    </footer>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>    </footer>
 
 
 </body>

@@ -9,7 +9,7 @@ include("functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AroInsa Medicine Solution</title>
+    <title>Aroma Pharmacy</title>
     <link rel="stylesheet" href="Article.css">
     <link rel="stylesheet" href="head.css" />
     <link rel="stylesheet" href="footer.css" />
@@ -134,7 +134,8 @@ include("functions/functions.php");
 
             <?php
                 // Database connection
-                $conn = new mysqli("sql209.infinityfree.com","if0_37477636","junu1stanan6316","if0_37477636_aroinsa");
+                $conn = new mysqli("localhost", "root", "", "aroinsa");
+
 
                 if ($conn->connect_error) {
                     die("Connection failed: " . $conn->connect_error);
@@ -200,7 +201,7 @@ include("functions/functions.php");
             <div class="col">
                 <a href="Aboutus.php">
                 <img src="./image/icon.png"class=logofoot height="50" weidth="40">
-                <p>Visit AroInsa Medicine Solution</p><p>To unlock a Healthier you </p>
+                <p>Visit Aroma Pharmacy</p><p>To unlock a Healthier you </p>
                 </a>
                 <div class="social-icons">
           
@@ -212,10 +213,10 @@ include("functions/functions.php");
             </div>
             <div class="col">
             <h3>Our Details <div class="underline"><span></span></div></h3>
-            <p class="email-id"><a href="mailto:u2008020@student.cuet.ac.bd">u2008020@student.cuet.ac.bd</a></p>
+ 
             <p class="email-id"><a href="mailto:u2008023@student.cuet.ac.bd">u2008023@student.cuet.ac.bd</a></p>
             <h4><p>+880-1876220119</p></h4>
-            <h4><p>+880-1558711356</p></h4>
+        
             </div>
     
             <div class="col">
@@ -247,7 +248,7 @@ include("functions/functions.php");
     
         </div>
         <hr>
-        <p class="copyright"> &copy2024 AroInsa Medicine Solution.All Rights Reserved; Designed by <span class="design">IFFAT ARA </span> & <span class="design"> MUHAMMED JUNAYED </span>
+        <p class="copyright"> &copy2024 Aroma Pharmacy.All Rights Reserved; Designed by  <span class="design"> MUHAMMAD JUNAYED </span>        </p>
         </p>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
