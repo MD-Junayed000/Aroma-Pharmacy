@@ -5,11 +5,11 @@ $username = "root";
 $password = "";
 $dbname = "aroinsa";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$con = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 
 // Form submission handling
@@ -18,7 +18,7 @@ if (isset($_GET['search'])) {
 
     // Perform a database query to retrieve the link associated with the search query
     $sql = "SELECT link FROM search WHERE search_query LIKE '%$search_query%'";
-    $result = $conn->query($sql);
+    $result = $con->query($sql);
 
     if ($result->num_rows > 0) {
         // If search query matches, fetch the link from the database
@@ -40,5 +40,5 @@ if (isset($_GET['search'])) {
     }
 }
 
-$conn->close();
+$con->close();
 ?>
