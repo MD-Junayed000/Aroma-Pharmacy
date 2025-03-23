@@ -118,10 +118,16 @@ ul li a {
 
 .social-icons .ione {
   color: #5335cf;
+  background: currentColor;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-icons .itwo {
   color: #1d9017;
+  background: currentColor;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-icons .ithree {
@@ -139,14 +145,7 @@ ul li a {
 }
 
 .social-icons .ifour {
-  background: linear-gradient(
-    135deg,
-    #ff0d00 0%,
-    #ff006a 25%,
-    #f66e48 50%,
-    #ff4000 75%,
-    #ff8400 100%
-  );
+  background: black;
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
