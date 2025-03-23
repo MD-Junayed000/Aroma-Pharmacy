@@ -12,7 +12,7 @@
 
 <section class="about">
     <div class="main">
-        <img src="/Aroma-Pharmacy/image/About.png">
+        <img src="./image/About.png">
 <div class="all-text">
     <h4>About Us</h4>
     <h1>Your Path to Health and Healing: Experience the Difference with Aroma Pharmacy</h1>
@@ -36,26 +36,26 @@
             <div class="tooltip">
                Facebook
             </div>
-            <span><i class="fab fa-facebook-f"></i></span>
+            <span><a href="https://www.facebook.com/junayed.junayed.796569"><i class="fab fa-facebook-f"style="color: #221370;"></i></a></span>
          </div>
          <div class="icon twitter">
             <div class="tooltip">
                Whatsapp
             </div>
-            <span><i class="fab fa-whatsapp"></i></span>
+            <span><a href="Wa.me/+8801776316056"><i class="fab fa-whatsapp"style="color:#218f1b;"></i></a></span>
          </div>
          <div class="icon instagram">
             <div class="tooltip">
-               Instagram
+               github
             </div>
-            <span><i class="fab fa-instagram"></i></span>
+            <span><a href="https://github.com/MD-Junayed000"><i class="fab fa-github" style="color: #000000;" ></i></a></span>
          </div>
          <div class="icon github">
             <div class="tooltip">
                linkedin
             </div>
             <span><a href="https://www.linkedin.com/in/mohammad-junayed-ete20/
-"><i class="fab fa-linkedin"style="color: #000000;"></i>
+">   <i class="fab fa-linkedin"  style="color: #1819a3;"></i>
 </a></span>
          </div>
          
