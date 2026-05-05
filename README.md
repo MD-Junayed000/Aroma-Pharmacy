@@ -33,8 +33,8 @@ Aroma Pharmacy is a PHP/MySQL pharmaceutical e-commerce platform with a customer
 ### Setup
 Before you start:
 - The repository only includes SQL for chatbot tables.
-- You also need the ecommerce schema for core features. It should include tables like `admins`, `products`, `product_category`, `categories`, `cart`, `customers`, `customer_order`, `payments`, `slider`, `boxes_section`, `articles`, `contact`, `password_resets`, and `user_chats`.
-- Export the full schema from an existing deployment or request it from the project owner, then import it into your local database.
+- You also need the ecommerce schema for core features (admins, products, categories, carts, customers, orders, payments, sliders, articles, chat, etc.).
+- The full schema SQL is not included in this repo. Export it from an existing deployment or request it from the project owner, then import it into your local database.
 
 1. Create a MySQL database. The default config files use `aroinsa` (see `config.php`), but you can choose any name if you update the config files later.
 2. Import the full ecommerce schema into the database.
