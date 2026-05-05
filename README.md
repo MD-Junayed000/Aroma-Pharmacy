@@ -31,20 +31,21 @@ Aroma Pharmacy is a PHP/MySQL pharmaceutical e-commerce platform with a customer
 - (Optional) XAMPP/WAMP/LAMP stack
 
 ### Setup
-1. Create a MySQL database named `aroinsa` (this is the default name used in the config files; change it only if you update those configs).
-2. Import the chatbot schema from `others/p/database.sql`.
-3. Update database credentials in:
+Before you start: the repository only includes SQL for chatbot tables. You also need the ecommerce schema for core features. It should include tables like `admins`, `products`, `product_category`, `categories`, `cart`, `customers`, `customer_order`, `payments`, `slider`, `boxes_section`, `articles`, `contact`, `password_resets`, and `user_chats`. Export the full schema from an existing deployment or request it from the project owner, then import it into your local database.
+
+1. Create a MySQL database (the default config uses `aroinsa`, but you can choose any name if you update the config files in step 4).
+2. Import the full ecommerce schema into the database.
+3. Import the chatbot schema from `others/p/database.sql`.
+4. Update database credentials in:
    - `config.php`
    - `admin_area/config.php`
    - `database.inc.php`
    - `includes/db.php`
-4. Ensure upload directories are writable:
+5. Ensure upload directories are writable:
    - `admin_area/admin_images`
    - `admin_area/product_images`
    - `admin_area/slider_images`
    - `admin_area/uploads`
-
-> Note: The repository only includes SQL for chatbot tables. For full storefront/admin functionality, you also need the ecommerce schema. Start with tables referenced in the codebase such as `admins`, `products`, `product_category`, `categories`, `cart`, `customers`, `customer_order`, `payments`, `slider`, `boxes_section`, `articles`, `contact`, `password_resets`, and `user_chats`. The full schema file is not included in this repo—export it from an existing deployment or request it from the project owner, then import it into your local database.
 
 ### Run
 From the repository root:
