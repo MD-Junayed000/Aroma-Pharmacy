@@ -1,37 +1,62 @@
 # Aroma Pharmacy
 
-Aroma Pharmacy is a comprehensive **pharmaceutical e-commerce platform** designed to provide users with an easy and secure way to browse, select, and purchase medicinal products.The platform includes robust features like doctor consultations, a dynamic shopping cart, secure checkout, health articles, and an admin panel for efficient management.
+Aroma Pharmacy is a PHP/MySQL pharmaceutical e-commerce platform with a customer storefront, doctor consultation options, a chatbot, and an admin dashboard for management.
 
-**Key Features**
+## Features
+- Browse and purchase medicines with product details and search.
+- Consult with doctors via WhatsApp, email, or the AroBot chatbot.
+- Dynamic cart and checkout with multiple payment options.
+- Health articles and wellness content.
+- Admin panel for products, orders, customers, and content management.
 
-•	**Browse and Purchase Medicines:** Users can easily browse categorized medicinal products, view detailed descriptions, and purchase them through a secure checkout process.
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript, Bootstrap
+- Backend: PHP (mysqli)
+- Database: MySQL/MariaDB
 
-•	**Consult with Doctors:** The platform offers direct communication with healthcare professionals via WhatsApp, email, or by interacting with AroBot, an intelligent chatbot.
+## Project Structure
+- `admin_area/` – admin dashboard, product/order management, uploads
+- `customer/` – customer authentication and account pages
+- `includes/`, `functions/` – shared PHP helpers and DB connection
+- `others/p/database.sql` – chatbot tables with sample data
+- Root `*.php` files – main storefront pages and flows
+- `image/`, `admin_area/*_images`, `admin_area/uploads/` – assets and uploads
 
-•	**Dynamic Cart and Checkout:** Users can add, modify, or remove items from their shopping cart, with multiple payment options available for a seamless transaction process.
+## Local Development
 
-•	**Health Articles & Insights:** Access a library of health-related articles covering topics like nutrition, wellness, and managing chronic conditions to stay informed and make better health decisions.
+### Prerequisites
+- PHP 7.4+ with the mysqli extension
+- MySQL/MariaDB
+- Apache/Nginx or the PHP built-in server
+- (Optional) XAMPP/WAMP/LAMP stack
 
-•	**Admin Panel:** The website is equipped with a robust admin panel, where administrators can manage orders, payments, customer accounts, and products efficiently.
+### Setup
+Before you start:
+- The repository only includes SQL for chatbot tables.
+- You also need the ecommerce schema for core features (admins, products, categories, carts, customers, orders, payments, sliders, articles, chat, etc.).
+- The full schema SQL is not included in this repo. Export it from an existing deployment or request it from the project owner, then import it into your local database.
 
-**Tech Stack**
-•	**Frontend:** HTML, CSS, JavaScript
+1. Create a MySQL database. The default config files use `aroinsa` (see `config.php`), but you can choose any name if you update the config files later.
+2. Import the full ecommerce schema into the database.
+3. Import the chatbot schema from `others/p/database.sql`.
+4. Update database credentials in:
+   - `config.php`
+   - `admin_area/config.php`
+   - `database.inc.php`
+   - `includes/db.php`
+5. Ensure upload directories are writable:
+   - `admin_area/admin_images`
+   - `admin_area/product_images`
+   - `admin_area/slider_images`
+   - `admin_area/uploads`
 
-•	**Backend:** PHP
+### Run
+From the repository root:
 
-•	**Database:** MySQL
+```bash
+php -S localhost:8000
+```
 
-•	**Tools:** Visual Studio Code, Git, GitHub
+Open http://localhost:8000 in your browser.
 
-**How It Works**
-
-**1.	User Panel:**
-o	Users can create an account, log in, and manage their personal details and order history.
-o	Products are listed by categories, and users can search for specific items using the search bar.
-o	After selecting products, users can proceed to checkout, where they can choose payment methods and confirm their orders.
-o	Customers can also consult with doctors via the **Ask a Doctor** feature through WhatsApp, email, or the AroBot chatbot.
-
-**2.	Admin Panel:**
-o	Administrators can add or update product listings, manage categories, view and process orders, handle customer inquiries, and monitor payments.
-o	Admins can also post health-related articles to keep customers informed.
-
+Admin login: http://localhost:8000/admin_area/login.php (requires an `admins` record).
