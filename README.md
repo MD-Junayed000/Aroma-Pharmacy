@@ -44,7 +44,7 @@ Aroma Pharmacy is a PHP/MySQL pharmaceutical e-commerce platform with a customer
    - `admin_area/slider_images`
    - `admin_area/uploads`
 
-> Note: The repository only includes SQL for chatbot tables. For full storefront/admin functionality, you also need the ecommerce schema (admins, products, categories, customers, orders, payments, etc.). If you do not already have this schema, derive it from the queries in `admin_area/` and `customer/`, or import it from an existing deployment.
+> Note: The repository only includes SQL for chatbot tables. For full storefront/admin functionality, you also need the ecommerce schema. Start with tables referenced in the codebase such as `admins`, `products`, `product_category`, `categories`, `cart`, `customers`, `customer_order`, `payments`, `slider`, `boxes_section`, `articles`, `contact`, `password_resets`, and `user_chats`. If you already have a production or staging database, export/import that schema into your local environment.
 
 ### Run
 From the repository root:
